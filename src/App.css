@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+.App {
+  font-family: PoppinsMedium, sans-serif;
+}
+
+.container {
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 42px;
+}
+
+h4 {
+  font-size: 36px;
+}
+
+h5 {
+  font-size: 30px;
+}
+
+h6 {
+  font-size: 26px;
+}
+
+p {
+  font-size: 18px;
+}
+
+li {
+  font-size: 18px;
+  list-style: none;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+/* button 1 */
+.action-button {
+  position: relative;
+  margin-top: 60px;
+}
+
+.action-button .action-button-bg {
+  font-size: 22px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #033b2f;
+  background: #fff;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.action-button button::before {
+  position: absolute;
+  content: "";
+  width: 56px;
+  height: 56px;
+  border: 5px solid #08546c;
+  z-index: -1;
+  top: 50%;
+  left: -22px;
+  transform: translateY(-50%);
+  transition: all ease 1s;
+}
+
+.action-button .action-button-bg:hover::before {
+  width: 120%;
+}
+
+
+/* media screens */
+
+@media screen and (max-width: 1365px) {
+}
+
+@media screen and (max-width: 640px) {
+}
