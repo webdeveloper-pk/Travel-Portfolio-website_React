@@ -6,7 +6,8 @@
 .mainContainer {
   display: flex;
   flex-direction: column;
-  margin: 100px 0px;
+  /* margin: 100px 0px; */
+  margin-top: 0px;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -30,6 +31,14 @@
 .LeftTopContainer {
   display: flex;
   flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.LeftTopContainer:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: ease-in-out 1.2s;
 }
 
 .LeftBottomContainer {
@@ -43,7 +52,6 @@
   display: flex;
   width: 65%;
   flex-direction: column;
-
 }
 
 .TopContainer {
@@ -61,6 +69,14 @@
   display: flex;
   flex: 2;
   box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.TopLeftContainer:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: ease-in-out 1.2s;
 }
 
 .TopRightContainer {
@@ -76,6 +92,13 @@
   display: flex;
   flex: 2;
   box-sizing: border-box;
+}
+
+.LastTopContainer:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: ease-in-out 1.2s;
 }
 
 .LastEndContainer {
@@ -134,17 +157,18 @@
   height: 440px;
   border-radius: 5px;
   object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* media queries */
 
- @media screen and (max-width: 1100px) {
-   .BottomContainer{
+@media screen and (max-width: 1100px) {
+  .BottomContainer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-   .LeftContainer{
+  .LeftContainer {
     align-items: center;
     width: 50%;
   }
@@ -152,10 +176,10 @@
     justify-content: center;
     align-items: center;
   }
-   .LeftBottomContainer{
+  .LeftBottomContainer {
     padding: unset;
   }
-  .TopContainer{
+  .TopContainer {
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -163,7 +187,7 @@
   .TopRightContainer {
     padding: unset;
   }
-   .LastEndContainer{
+  .LastEndContainer {
     padding: unset;
   }
 }

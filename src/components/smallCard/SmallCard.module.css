@@ -1,16 +1,20 @@
+.smallCard_wrapper {
+  width: 100%;
+  padding: 50px 60px;
+}
+
 .smallCard {
   text-decoration: none;
-  border: 3px solid yellow;
-  color: transparent;
-  padding: 40px 80px;
+  outline: 5px solid #bd6e39;
+  padding: 60px 80px;
   font-size: 28px;
-  font-family: sans-serif;
   letter-spacing: 5px;
   transition: all 0.5s;
   position: relative;
   width: 100%;
-  height: 400px;
-  margin: 50px 0px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .smallCard:before {
@@ -18,12 +22,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: yellow;
-  background: rgb(34, 34, 34);
+  background: rgb(101, 100, 100);
+  background: linear-gradient(
+    90deg,
+    rgba(101, 100, 100, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   font-size: 28px;
   top: 0;
   left: 100%;
-  font-family: sans-serif;
   letter-spacing: 5px;
   transition: all 1s;
   height: 100%;
@@ -44,12 +51,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: yellow;
-  background: rgb(34, 34, 34);
+  background: rgb(101, 100, 100);
+  background: linear-gradient(
+    90deg,
+    rgba(101, 100, 100, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   font-size: 28px;
   top: 0;
   left: 0;
-  font-family: sans-serif;
   letter-spacing: 5px;
   transition: all 1s;
   height: 100%;
@@ -65,7 +75,6 @@
   opacity: 0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 *:focus,
 *:active {
@@ -73,10 +82,27 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-h1 {
+.smallCard div {
   position: absolute;
   color: #fff;
   z-index: 1;
   text-align: center;
-  /* padding: 50px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.smallCard h3{
+  color: #bd6e39;
+  margin-bottom: 20px;
+}
+
+.smallCard p{
+  color: #fff;
+  max-width: 85%;
+}
+
+.btn {
+  margin-top: 170px;
 }

@@ -5,32 +5,20 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Card.module.css"
 
-const Card = () => {
+const Card = ({src , place}) => {
   return (
     <div className={styles.wrapper}>
       <div className={`${styles.card} ${styles.front_face}`}>
-        <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" />
+        <img src={src} />
       </div>
       <div className={`${styles.card} ${styles.back_face}`}>
-        <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" />
+        <img src={src} />
         <div className={styles.info}>
-          <div className={styles.title}>CodingLab</div>
-          <p>
-            User interface designer and <br />
-            front-end developer
-          </p>
+          <div className={styles.title}>
+            {place}
+            <p>Lorem ipsum dolor amet Lorem ipsum</p>
+          </div>
         </div>
-        <ul>
-          <a href="#">
-            <FontAwesomeIcon icon={faCoffee} />
-          </a>
-          <a href="#">
-            <FontAwesomeIcon icon={faCoffee} />
-          </a>
-          <a href="#">
-            <FontAwesomeIcon icon={faCoffee} />
-          </a>
-        </ul>
       </div>
     </div>
   );

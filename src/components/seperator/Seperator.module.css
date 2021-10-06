@@ -1,0 +1,32 @@
+.seperator_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  padding: 50px 0px;
+  margin: 0;
+}
+
+.seperator_wrapper h3 {
+  margin: 0;
+  color: #bd6e39;
+  max-width: 70%;
+  text-align: center;
+}
+
+.seperator_wrapper p {
+  color: #656464;
+  max-width: 60%;
+}
+
+hr {
+  border: 1px solid #bd6e39;
+  width: 250px;
+}
+
+@media screen and (max-width: 640px) {
+  .seperator_wrapper h3 {
+    max-width: 100%;
+  }
+}

@@ -20,29 +20,30 @@ const Navbar = () => {
           <div className={styles.logo_wrapper}>
             <img src="/images/logo.png" alt="logo" />
           </div>
-          <div className={styles.menuItem_wrapper}>
+          <div className={styles.center_items}>
             <ul>
+              <li>Home</li>
               <li>About</li>
               <li>Portfolio</li>
               <li>Contact</li>
-              <li>
-                <Button text="Get Started" />
-              </li>
-              <button className={styles.humberg_button} onClick={clickHandler}>
-                <span className={styles.topbar}></span>
-                <span className={styles.midbar}></span>
-                <span className={styles.bottombar}></span>
-              </button>
             </ul>
-
+          </div>
+          <div className={styles.menuItem_wrapper}>
+            <button>Log In</button>
+            <button className={styles.humberg_button} onClick={clickHandler}>
+              <span className={styles.topbar}></span>
+              <span className={styles.midbar}></span>
+              <span className={styles.bottombar}></span>
+            </button>
             {hamburg === true ? (
               <div className={styles.absolute_wrapper}>
                 <div className={styles.absolute_wrapper_items}>
+                  <p>Home</p>
                   <p>About</p>
                   <p>Portfolio</p>
                   <p>Contact</p>
                   <p>
-                    <Button text="Get Started" />
+                    <Button text="Log In" />
                   </p>
                 </div>
               </div>

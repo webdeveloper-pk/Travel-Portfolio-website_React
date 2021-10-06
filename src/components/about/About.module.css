@@ -1,0 +1,13 @@
+.about {
+  width: 100%;
+}
+
+.about_wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+

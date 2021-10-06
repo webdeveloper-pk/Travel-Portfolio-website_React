@@ -1,10 +1,17 @@
 import React from 'react'
+import Seperator from '../seperator';
 import styles from "./Testimonial.module.css"
 
 const Testimonial = () => {
   return (
     <div className={styles.testimonial}>
       <div className="container">
+        <div className="headings">
+          <Seperator
+            heading="What People Say About Us"
+            paragrapgh="Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas deserunt beatae adipisci iusto totam placeat corrupti ipsum, tempora "
+          />
+        </div>
         <div className={styles.MainContainer}>
           <div className={styles.BottomContainer}>
             <div className={styles.LeftContainer}>
@@ -73,9 +80,7 @@ const Testimonial = () => {
                     database keeping
                   </div>
                   <div className={styles.Name}>John Doe </div>
-                  <div className={styles.Designation}>
-                    HR Manager - Netflix
-                  </div>
+                  <div className={styles.Designation}>HR Manager - Netflix</div>
                 </div>
               </div>
             </div>

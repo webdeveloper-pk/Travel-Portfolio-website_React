@@ -52,6 +52,12 @@ li:hover {
   cursor: pointer;
 }
 
+.headings{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* button 1 */
 .action-button {
   position: relative;
@@ -59,25 +65,28 @@ li:hover {
 }
 
 .action-button .action-button-bg {
-  font-size: 22px;
-  line-height: 1.4;
+  font-size: 18px;
+  line-height: 1.1;
   letter-spacing: 1px;
   font-weight: bold;
-  color: #033b2f;
-  background: #fff;
+  background: #bd6e39;
   border: none;
   text-transform: uppercase;
   position: relative;
   cursor: pointer;
   margin-left: 20px;
+  width: 110px;
+  border-radius: 5px;
+  padding: 4px 6px;
+  color: #ffffff;
 }
 
 .action-button button::before {
   position: absolute;
   content: "";
   width: 56px;
-  height: 56px;
-  border: 5px solid #08546c;
+  height: 60px;
+  border: 5px solid #bd6e39;
   z-index: -1;
   top: 50%;
   left: -22px;
@@ -86,7 +95,7 @@ li:hover {
 }
 
 .action-button .action-button-bg:hover::before {
-  width: 120%;
+  width: 130%;
 }
 
 

@@ -5,25 +5,27 @@ const Hero = () => {
   return (
     <div className={styles.hero}>
       <div className="container">
-        <div className={styles. main_container}>
-          <h2>TRAVEL WITH US</h2>
-          <p>Where you get Natures love</p>
-          <button className={styles.hero_button} >Get Started</button>
-          <div className={styles. inner_container}>
+        <div className={styles.main_container}>
+          <h6>Tour & Travlers</h6>
+          <h2>
+            Amazing <span>Places</span> on <span>Earth</span>
+          </h2>
+          <button className={styles.hero_button}>Get Started</button>
+          <div className={styles.inner_container}>
             <div className={styles.left}>
-              <img src={"/images/leftimage.jpg"} alt="image" />
+              <img src={"/images/leftt.jpg"} alt="image" />
             </div>
             <div className={styles.centerLeft}>
-              <img src={"/images/leftcenterr.jpg"} alt="image" />
+              <img src={"/images/left2.jpg"} alt="image" />
             </div>
             <div className={styles.center}>
-              <img src={"/images/center.jpg"} alt="image" />
+              <img src={"/images/centerr.jpg"} alt="image" />
             </div>
             <div className={styles.centerRight}>
-              <img src={"/images/rightcenter.jpg"} alt="image" />
+              <img src={"/images/right2.jpg"} alt="image" />
             </div>
             <div className={styles.right}>
-              <img src={"/images/rightimage.jpg"} alt="image" />
+              <img src={"/images/rightt.jpg"} alt="image" />
             </div>
           </div>
         </div>
