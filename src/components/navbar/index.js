@@ -31,9 +31,27 @@ const Navbar = () => {
           <div className={styles.menuItem_wrapper}>
             <button>Log In</button>
             <button className={styles.humberg_button} onClick={clickHandler}>
-              <span className={styles.topbar}></span>
-              <span className={styles.midbar}></span>
-              <span className={styles.bottombar}></span>
+              <span
+                className={
+                  hamburg === false
+                    ? `${styles.topbar}`
+                    : `${styles.topbarcross}`
+                }
+              ></span>
+              <span
+                className={
+                  hamburg === false
+                    ? `${styles.midbar}`
+                    : `${styles.midbarcross}`
+                }
+              ></span>
+              <span
+                className={
+                  hamburg === false
+                    ? `${styles.bottombar}`
+                    : `${styles.bottombarcross}`
+                }
+              ></span>
             </button>
             {hamburg === true ? (
               <div className={styles.absolute_wrapper}>

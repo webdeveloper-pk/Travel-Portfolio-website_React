@@ -6,7 +6,6 @@
 .mainContainer {
   display: flex;
   flex-direction: column;
-  /* margin: 100px 0px; */
   margin-top: 0px;
   justify-content: center;
   align-items: center;
@@ -111,9 +110,8 @@
 }
 
 .IconContainer {
-  font-family: Gilroy-Bold, sans-serif !important;
-  text-align: left !important;
-  margin-bottom: -2px !important;
+  text-align: left ;
+  margin-bottom: -2px ;
 }
 
 .Description {
@@ -126,13 +124,15 @@
 }
 
 .Name {
-  font-family: Gilroy-Bold, sans-serif;
   text-align: left;
   margin: unset;
   text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #bd6e39;
 }
 
-.Designation {
+.designation {
   font-size: 16px;
   text-align: left;
   margin: unset;
@@ -168,26 +168,62 @@
     justify-content: center;
     align-items: center;
   }
+
   .LeftContainer {
     align-items: center;
     width: 50%;
+    margin-bottom: 40px;
   }
+
   .RightContainer {
     justify-content: center;
     align-items: center;
   }
+
   .LeftBottomContainer {
     padding: unset;
   }
+
   .TopContainer {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-bottom: 40px;
   }
+
   .TopRightContainer {
     padding: unset;
   }
+
   .LastEndContainer {
     padding: unset;
   }
+}
+
+@media screen and (max-width: 720px) {
+ .image3 {
+  width: 500px;
+  height: 400px;
+}
+}
+
+@media screen and (max-width: 580px) {
+
+.LeftBottomContainer {
+  padding: 10px 0px 20px 0px;
+}}
+
+@media screen and (max-width: 500px) {
+ .image3 {
+  width: 320px;
+  height: 300px;
+}
+}
+
+@media screen and (max-width: 430px) {
+
+.image2 {
+  width: 320px;
+  height: 400px;
+}
 }

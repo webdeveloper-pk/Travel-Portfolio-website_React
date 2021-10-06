@@ -13,8 +13,8 @@ const SmallCard = () => {
             ipsum, tempora
           </p>
           <div className={styles.btn}>
-            <div class="action-button">
-              <button class="action-button-bg">Connect</button>
+            <div className="action-button">
+              <button className="action-button-bg">Connect</button>
             </div>
           </div>
         </div>

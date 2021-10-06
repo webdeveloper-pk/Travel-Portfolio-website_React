@@ -6,6 +6,37 @@ const Footer = () => {
     <div className={styles.footer}>
       <div className="container">
         <div className={styles.footer_wrapper}>
+          <div className={styles.link_wrapper}>
+            <div className={styles.link_inner_wrapper}>
+              <h3>About Us</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium quia atque nemo ad modi officiis iure, autem nulla
+                tenetur repellendus
+              </p>
+            </div>
+            <div className={styles.link_inner_wrapper}>
+              <h3>Newsletter</h3>
+              <p>Stay update with our latest</p>
+              <input type="text" placeholder="Email" />
+            </div>
+            <div className={styles.link_inner_wrapper}>
+              <h3 className={styles.heading}>Tours</h3>
+              <ul>
+                <li>International</li>
+                <li>National</li>
+                <li>Local</li>
+              </ul>
+            </div>
+            <div className={styles.link_inner_wrapper}>
+              <h3 className={styles.heading}>Contact Us</h3>
+              <ul>
+                <li>Website</li>
+                <li>Page</li>
+                <li>Social</li>
+              </ul>
+            </div>
+          </div>
           <div className={styles.wrapper}>
             <div className={`${styles.icon} ${styles.facebook}`}>
               <div className={styles.tooltip}>Instagram</div>

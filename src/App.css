@@ -52,7 +52,7 @@ li:hover {
   cursor: pointer;
 }
 
-.headings{
+.headings {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,11 +98,10 @@ li:hover {
   width: 130%;
 }
 
-
 /* media screens */
 
-@media screen and (max-width: 1365px) {
-}
-
 @media screen and (max-width: 640px) {
+  h3 {
+    font-size: 36px;
+  }
 }
