@@ -18,7 +18,7 @@ const Testimonial = () => {
               <div className={styles.LeftTopContainer}>
                 <img
                   className={styles.image1}
-                  src={"/images/testimonial1.png"}
+                  src="/images/testimonial1.png"
                   alt="testimonial"
                 />
               </div>
@@ -29,7 +29,7 @@ const Testimonial = () => {
                   ipsum, tempora beatae adipisci iusto totam placeat .
                 </div>
                 <div className={styles.Name}>Kate Wilson </div>
-                <div className={styles.designation} Designation>
+                <div className={styles.designation}>
                   Recruitment Specialist - Google
                 </div>
               </div>
@@ -38,9 +38,8 @@ const Testimonial = () => {
               <div className={styles.TopContainer}>
                 <div className={styles.TopLeftContainer}>
                   <img
-                    div
                     className={styles.image2}
-                    src={"/images/testimonial2.png"}
+                    src="/images/testimonial2.png"
                     alt="testimonial"
                   />
                 </div>
@@ -60,9 +59,9 @@ const Testimonial = () => {
               <div className={styles.LastContainer}>
                 <div className={styles.LastTopContainer}>
                   <img
-                    div
+                    
                     className={styles.image3}
-                    src={"/images/testimonial3.png"}
+                    src="/images/testimonial3.png"
                     alt="testimonial"
                   />
                 </div>
