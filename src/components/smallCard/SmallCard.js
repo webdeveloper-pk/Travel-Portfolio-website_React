@@ -3,7 +3,7 @@ import styles from "./SmallCard.module.css";
 
 const SmallCard = () => {
   return (
-    <div className={styles.smallCard_wrapper}>
+    <div className={styles.smallCard_wrapper} id="connect">
       <div className={styles.smallCard}>
         <div>
           <h3>Connect With Us</h3>

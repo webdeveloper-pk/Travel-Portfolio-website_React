@@ -60,6 +60,11 @@ ul li {
   text-align: center;
 }
 
+.center_items ul li a{
+  color: #ffffff;
+  font-size: 18px;
+}
+
 .center_items ul li::before {
   background-color: #bd6e39;
   content: "";
@@ -132,6 +137,7 @@ ul li:hover {
   height: 4px;
   right: 10%;
   top: -10px;
+  transition: all ease-in-out 0.3s;
 }
 
 .midbar {
@@ -171,6 +177,7 @@ ul li:hover {
 
 .absolute_wrapper {
   display: none;
+  transition: all ease-out 1.5s;
 }
 
 .absolute_wrapper_items {

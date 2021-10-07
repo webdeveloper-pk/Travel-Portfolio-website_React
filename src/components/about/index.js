@@ -5,7 +5,7 @@ import styles from "./About.module.css"
 
 const index = () => {
   return (
-    <div className={styles.about}>
+    <div className={styles.about} id="about">
       <div className="container">
         <div className="headings">
           <Seperator
